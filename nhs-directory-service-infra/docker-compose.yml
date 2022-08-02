@@ -1,0 +1,10 @@
+version: "2"
+services:
+  mysqldb:
+    container_name: mysqldatabase-container
+    image: mysql
+    ports:
+      - 3307:3306
+    environment:
+      MYSQL_DATABASE: nhs_directory
+      MYSQL_ROOT_PASSWORD: root

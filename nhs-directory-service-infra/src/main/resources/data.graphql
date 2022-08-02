@@ -1,0 +1,19 @@
+schema {
+ query: Query
+}
+
+type Query{
+   nhsData(patientIdList: [String], yearOfBirthList: [String], sexAtBirthList: [String], ethnicityList: [String],admissionStartDateList: [String], admissionEndDateList: [String], admissionSourceList: [String], admissionOutComeList: [String], offSet: String): [NHSData]
+}
+
+type NHSData {
+   patientId: String
+   yearOfBirth: String
+   sexAtBirth: String
+   ethnicity: String
+   admissionStartDateTime: String
+   admissionEndDateTime: String
+   admissionSource: String
+   admissionOutcome: String
+   offSet: String
+}
