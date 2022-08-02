@@ -26,6 +26,9 @@ In the same directory,run command to start the application
 
 Once the application is successfully started up,you can test the APIs on [URL](http://localhost:8080/nhs-directory-service)
 
+For inserting data into Database,drop the patient and admission consisting data CSVs into `data_drop` folder.
+Drop the CSV files one by one to load the data into DB.
+
 
 
 
