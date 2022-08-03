@@ -29,6 +29,8 @@ Once the application is successfully started up,you can test the APIs on [URL](h
 For inserting data into Database,drop the patient and admission consisting data CSVs into `data_drop` folder.
 Drop the CSV files one by one to load the data into DB.
 
+### Video Demo
+Please refer this [video](https://drive.google.com/file/d/1EMFTWxdtm-miwGKlp6ZPjLLx4ssSwCuV/view?usp=sharing) demo for testing the application
 
 
 
